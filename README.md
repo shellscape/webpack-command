@@ -1,8 +1,3 @@
-<div align="center">
-  <a href="https://github.com/webpack/webpack">
-    <img width="200" height="200" src="https://webpack.js.org/assets/icon-square-big.svg">
-  </a>
-</div>
 
 [![npm][npm]][npm-url]
 [![node][node]][node-url]
@@ -14,9 +9,11 @@
 
 # webpack-command
 
-> Deprecated? Naw. 
+For a truly fast, teensy, squeaky clean Webpack CLI - try [webpack-nano](https://www.npmjs.com/package/webpack-nano).
 
-A superior CLI experience for webpack. Lightweight, modular, and opinionated.
+> Note: webpack-command is now being maintained on [this fork](https://github.com/shellscape/webpack-command), and will be open to Pull Requests and Issues for users that prefer this CLI. The webpack-contrib org has chosen to drop support for this module and is no longer actively maintaining it.
+
+A superior CLI experience for webpack. Modular and opinionated.
 
 For users coming from `webpack-cli`, please read about
 [the differences](#differences-with-webpack-cli) between this module and
@@ -53,7 +50,7 @@ a `require` hook
 
 And last but not least, Did-You-Mean suggestions for flags:
 
-<img width="427" src="https://raw.githubusercontent.com/webpack-contrib/webpack-command/master/assets/did-you-mean.png" alt="did you mean">
+<img width="427" src="https://raw.githubusercontent.com/shellscape/webpack-command/master/assets/did-you-mean.png" alt="did you mean">
 
 ## Getting Started
 
@@ -199,7 +196,7 @@ The resulting configuration object would resemble:
 }
 ```
 
-[Read More about Extending Configuration Files](https://github.com/webpack-contrib/config-loader/blob/master/docs/EXTENDS.md)
+[Read More about Extending Configuration Files](https://github.com/shellscape/config-loader/blob/master/docs/EXTENDS.md)
 
 ## Commands
 
@@ -330,14 +327,14 @@ Please take a moment to read our contributing guidelines if you haven't yet done
 [node]: https://img.shields.io/node/v/webpack-command.svg
 [node-url]: https://nodejs.org
 
-[deps]: https://david-dm.org/webpack-contrib/webpack-command.svg
-[deps-url]: https://david-dm.org/webpack-contrib/webpack-command
+[deps]: https://david-dm.org/shellscape/webpack-command.svg
+[deps-url]: https://david-dm.org/shellscape/webpack-command
 
-[tests]: 	https://img.shields.io/circleci/project/github/webpack-contrib/webpack-command.svg
-[tests-url]: https://circleci.com/gh/webpack-contrib/webpack-command
+[tests]: 	https://img.shields.io/circleci/project/github/shellscape/webpack-command.svg
+[tests-url]: https://circleci.com/gh/shellscape/webpack-command
 
-[cover]: https://codecov.io/gh/webpack-contrib/webpack-command/branch/master/graph/badge.svg
-[cover-url]: https://codecov.io/gh/webpack-contrib/webpack-command
+[cover]: https://codecov.io/gh/shellscape/webpack-command/branch/master/graph/badge.svg
+[cover-url]: https://codecov.io/gh/shellscape/webpack-command
 
 [chat]: https://img.shields.io/badge/gitter-webpack%2Fwebpack-brightgreen.svg
 [chat-url]: https://gitter.im/webpack/webpack
