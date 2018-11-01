@@ -111,7 +111,7 @@ Object {
 
 exports[`StylishReporter > problems/stylish-problems: reporter should build #0 1`] = `
 "
-webpack v4.14.0
+webpack v4.23.1
 
 <hash>
   size   name                     module                                                        status
@@ -183,7 +183,7 @@ Object {
 
 exports[`StylishReporter > stylish: reporter should build #0 1`] = `
 "
-webpack v4.14.0
+webpack v4.23.1
 
 <hash>
   size     name        module                             status
@@ -277,7 +277,7 @@ Array [
 
 exports[`StylishReporter > stylish-multi: reporter should build #0 1`] = `
 "
-webpack v4.14.0
+webpack v4.23.1
 
 <hash>
   size     name        module                             status
@@ -290,9 +290,9 @@ webpack v4.14.0
 
 <hash>
   size     name        module                                                                     status
+  40 B     0           multi ./test/fixtures/common/entry-b.js ./test/fixtures/common/entry-c.js  built
   41 B     entry-b.js  ./test/fixtures/common/entry-b.js                                          built
   41 B     entry-c.js  ./test/fixtures/common/entry-c.js                                          built
-  40 B     0           multi ./test/fixtures/common/entry-b.js ./test/fixtures/common/entry-c.js  built
 
   size     name        asset                                                                      status
   <size>  main        main.js                                                                    emitted
@@ -317,7 +317,7 @@ Object {
 
 exports[`bad reporter name > should default to stylish #0 1`] = `
 "
-webpack v4.14.0
+webpack v4.23.1
 
 <hash>
   size     name        module                             status

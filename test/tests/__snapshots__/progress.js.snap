@@ -144,11 +144,6 @@ Array [
   },
   Object {
     "fn": [Function],
-    "name": "OccurrenceOrderPlugin",
-    "type": "sync",
-  },
-  Object {
-    "fn": [Function],
     "name": "SideEffectsFlagPlugin",
     "type": "sync",
   },
@@ -175,6 +170,16 @@ Array [
   Object {
     "fn": [Function],
     "name": "WasmFinalizeExportsPlugin",
+    "type": "sync",
+  },
+  Object {
+    "fn": [Function],
+    "name": "OccurrenceOrderModuleIdsPlugin",
+    "type": "sync",
+  },
+  Object {
+    "fn": [Function],
+    "name": "OccurrenceOrderChunkIdsPlugin",
     "type": "sync",
   },
   Object {

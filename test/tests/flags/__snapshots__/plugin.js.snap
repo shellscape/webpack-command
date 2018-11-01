@@ -8,9 +8,11 @@ Object {
     UglifyJsPlugin {
       "options": Object {
         "cache": false,
+        "cacheKeys": [Function],
         "exclude": undefined,
         "extractComments": false,
         "include": undefined,
+        "minify": undefined,
         "parallel": false,
         "sourceMap": false,
         "test": /\\\\\\.js\\(\\\\\\?\\.\\*\\)\\?\\$/i,
@@ -34,7 +36,7 @@ Object {
 `;
 
 exports[`Flags > --plugin > should build #0 1`] = `
-"Version: webpack 4.14.0
+"Version: webpack 4.23.1
   Asset      Size  Chunks             Chunk Names
 main.js  1.27 KiB    main  [emitted]  main
 Entrypoint main = main.js

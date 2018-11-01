@@ -110,7 +110,7 @@
     "prettier": "^1.11.1",
     "standard-version": "^4.3.0",
     "stylelint-webpack-plugin": "^0.10.4",
-    "webpack": "^4.6.0",
+    "webpack": "^4.23.1",
     "webpack-defaults": "^2.3.0"
   },
   "keywords": [
