@@ -43,7 +43,7 @@ configuration
 
 exports[`Commands > should show cli help #0 1`] = `
 "
-  A superior CLI experience for webpack. Lightweight, modular, and opinionated.
+  A superior CLI experience for webpack.
 
   Usage
     $ webpack [<config>, ...options]

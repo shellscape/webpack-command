@@ -24,7 +24,6 @@ canary_tests: &canary_tests
         name: Run unit tests.
         command: if [[ $(compver --name webpack --gte next --lt latest) < 1 ]] ; then printf "Next is older than Latest - Skipping Canary Suite"; else npm run ci:test ; fi
 
-version: 2
 jobs:
   dependency_cache:
     docker:
