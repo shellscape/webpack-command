@@ -18,12 +18,12 @@ Object {
 `;
 
 exports[`Flags > --output-* > output should build #0 1`] = `
-"Version: webpack 4.23.1
+"Version: webpack 4.39.2
     Asset      Size  Chunks             Chunk Names
 bundle.js  4.47 KiB    main  [emitted]  main
 Entrypoint main = bundle.js
-[./test/fixtures/common/entry-a.js] 41 bytes {main} [built]
-[./test/fixtures/flags/output/output-entry.js] 80 bytes {main} [built]"
+[./test/fixtures/common/entry-a.js] 40 bytes {main} [built]
+[./test/fixtures/flags/output/output-entry.js] 79 bytes {main} [built]"
 `;
 
 exports[`Flags > --output-* > output-chunk-filename should apply #0 1`] = `
@@ -43,12 +43,12 @@ Object {
 `;
 
 exports[`Flags > --output-* > output-chunk-filename should build #0 1`] = `
-"Version: webpack 4.23.1
+"Version: webpack 4.39.2
   Asset      Size  Chunks             Chunk Names
 main.js  4.47 KiB    main  [emitted]  main
 Entrypoint main = main.js
-[./test/fixtures/common/entry-a.js] 41 bytes {main} [built]
-[./test/fixtures/flags/output/output-entry.js] 80 bytes {main} [built]"
+[./test/fixtures/common/entry-a.js] 40 bytes {main} [built]
+[./test/fixtures/flags/output/output-entry.js] 79 bytes {main} [built]"
 `;
 
 exports[`Flags > --output-* > output-filename should apply #0 1`] = `
@@ -68,12 +68,12 @@ Object {
 `;
 
 exports[`Flags > --output-* > output-filename should build #0 1`] = `
-"Version: webpack 4.23.1
+"Version: webpack 4.39.2
          Asset      Size  Chunks             Chunk Names
 output-main.js  4.47 KiB    main  [emitted]  main
 Entrypoint main = output-main.js
-[./test/fixtures/common/entry-a.js] 41 bytes {main} [built]
-[./test/fixtures/flags/output/output-entry.js] 80 bytes {main} [built]"
+[./test/fixtures/common/entry-a.js] 40 bytes {main} [built]
+[./test/fixtures/flags/output/output-entry.js] 79 bytes {main} [built]"
 `;
 
 exports[`Flags > --output-* > output-jsonp-function should apply #0 1`] = `
@@ -93,12 +93,12 @@ Object {
 `;
 
 exports[`Flags > --output-* > output-jsonp-function should build #0 1`] = `
-"Version: webpack 4.23.1
+"Version: webpack 4.39.2
   Asset      Size  Chunks             Chunk Names
 main.js  4.47 KiB    main  [emitted]  main
 Entrypoint main = main.js
-[./test/fixtures/common/entry-a.js] 41 bytes {main} [built]
-[./test/fixtures/flags/output/output-entry.js] 80 bytes {main} [built]"
+[./test/fixtures/common/entry-a.js] 40 bytes {main} [built]
+[./test/fixtures/flags/output/output-entry.js] 79 bytes {main} [built]"
 `;
 
 exports[`Flags > --output-* > output-library should apply #0 1`] = `
@@ -118,12 +118,12 @@ Object {
 `;
 
 exports[`Flags > --output-* > output-library should build #0 1`] = `
-"Version: webpack 4.23.1
+"Version: webpack 4.39.2
   Asset      Size  Chunks             Chunk Names
 main.js  4.51 KiB    main  [emitted]  main
 Entrypoint main = main.js
-[./test/fixtures/common/entry-a.js] 41 bytes {main} [built]
-[./test/fixtures/flags/output/output-entry.js] 80 bytes {main} [built]"
+[./test/fixtures/common/entry-a.js] 40 bytes {main} [built]
+[./test/fixtures/flags/output/output-entry.js] 79 bytes {main} [built]"
 `;
 
 exports[`Flags > --output-* > output-library-target should apply #0 1`] = `
@@ -143,12 +143,12 @@ Object {
 `;
 
 exports[`Flags > --output-* > output-library-target should build #0 1`] = `
-"Version: webpack 4.23.1
+"Version: webpack 4.39.2
   Asset      Size  Chunks             Chunk Names
 main.js  4.47 KiB    main  [emitted]  main
 Entrypoint main = main.js
-[./test/fixtures/common/entry-a.js] 41 bytes {main} [built]
-[./test/fixtures/flags/output/output-entry.js] 80 bytes {main} [built]"
+[./test/fixtures/common/entry-a.js] 40 bytes {main} [built]
+[./test/fixtures/flags/output/output-entry.js] 79 bytes {main} [built]"
 `;
 
 exports[`Flags > --output-* > output-path should apply #0 1`] = `
@@ -168,12 +168,12 @@ Object {
 `;
 
 exports[`Flags > --output-* > output-path should build #0 1`] = `
-"Version: webpack 4.23.1
+"Version: webpack 4.39.2
   Asset      Size  Chunks             Chunk Names
 main.js  4.47 KiB    main  [emitted]  main
 Entrypoint main = main.js
-[./test/fixtures/common/entry-a.js] 41 bytes {main} [built]
-[./test/fixtures/flags/output/output-entry.js] 80 bytes {main} [built]"
+[./test/fixtures/common/entry-a.js] 40 bytes {main} [built]
+[./test/fixtures/flags/output/output-entry.js] 79 bytes {main} [built]"
 `;
 
 exports[`Flags > --output-* > output-pathinfo should apply #0 1`] = `
@@ -193,12 +193,12 @@ Object {
 `;
 
 exports[`Flags > --output-* > output-pathinfo should build #0 1`] = `
-"Version: webpack 4.23.1
+"Version: webpack 4.39.2
   Asset      Size  Chunks             Chunk Names
 main.js  4.47 KiB    main  [emitted]  main
 Entrypoint main = main.js
-[./test/fixtures/common/entry-a.js] 41 bytes {main} [built]
-[./test/fixtures/flags/output/output-entry.js] 80 bytes {main} [built]"
+[./test/fixtures/common/entry-a.js] 40 bytes {main} [built]
+[./test/fixtures/flags/output/output-entry.js] 79 bytes {main} [built]"
 `;
 
 exports[`Flags > --output-* > output-public-path should apply #0 1`] = `
@@ -218,12 +218,12 @@ Object {
 `;
 
 exports[`Flags > --output-* > output-public-path should build #0 1`] = `
-"Version: webpack 4.23.1
+"Version: webpack 4.39.2
   Asset      Size  Chunks             Chunk Names
-main.js  4.49 KiB    main  [emitted]  main
+main.js  4.48 KiB    main  [emitted]  main
 Entrypoint main = main.js
-[./test/fixtures/common/entry-a.js] 41 bytes {main} [built]
-[./test/fixtures/flags/output/output-entry.js] 80 bytes {main} [built]"
+[./test/fixtures/common/entry-a.js] 40 bytes {main} [built]
+[./test/fixtures/flags/output/output-entry.js] 79 bytes {main} [built]"
 `;
 
 exports[`Flags > --output-* > output-source-map-filename should apply #0 1`] = `
@@ -244,11 +244,11 @@ Object {
 `;
 
 exports[`Flags > --output-* > output-source-map-filename should build #0 1`] = `
-"Version: webpack 4.23.1
+"Version: webpack 4.39.2
           Asset      Size  Chunks             Chunk Names
         main.js  4.35 KiB    main  [emitted]  main
 output-main.map  3.86 KiB    main  [emitted]  main
 Entrypoint main = main.js output-main.map
-[./test/fixtures/common/entry-a.js] 41 bytes {main} [built]
-[./test/fixtures/flags/output/output-entry.js] 80 bytes {main} [built]"
+[./test/fixtures/common/entry-a.js] 40 bytes {main} [built]
+[./test/fixtures/flags/output/output-entry.js] 79 bytes {main} [built]"
 `;

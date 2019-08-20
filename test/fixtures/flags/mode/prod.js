@@ -6,8 +6,8 @@ module.exports = {
   arguments: ['--mode', 'production'],
 
   config: Object.assign({}, config, {
-    entry: resolve(__dirname, '../../common/entry-a.js'),
+    entry: resolve(__dirname, '../../common/entry-a.js')
   }),
 
-  group: 'config',
+  group: 'config'
 };

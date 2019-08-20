@@ -7,8 +7,8 @@ module.exports = {
 
   config: Object.assign({}, config, {
     entry: resolve(__dirname, '../../common/entry-a.js'),
-    name: 'single-flag',
+    name: 'single-flag'
   }),
 
-  group: 'general',
+  group: 'general'
 };

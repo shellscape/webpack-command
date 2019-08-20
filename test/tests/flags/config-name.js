@@ -6,13 +6,13 @@ const fixtures = [
   'multi-found',
   'multi-missing',
   'single-array',
-  'single-object',
+  'single-object'
 ];
 
 test('--config-name', module, () => {
   for (const name of fixtures) {
     const opts = {
-      fixture: `config-name/${name}`,
+      fixture: `config-name/${name}`
     };
     const { argv, fixture } = prep(opts);
 

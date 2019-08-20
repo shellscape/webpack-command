@@ -7,12 +7,12 @@ module.exports = {
     '--records-input-path',
     './dist/records-input.json',
     '--records-output-path',
-    './dist/records-output.json',
+    './dist/records-output.json'
   ],
 
   config: Object.assign({}, config, {
-    entry: resolve(__dirname, '../../common/entry-a.js'),
+    entry: resolve(__dirname, '../../common/entry-a.js')
   }),
 
-  group: 'advanced',
+  group: 'advanced'
 };

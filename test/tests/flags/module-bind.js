@@ -1,11 +1,4 @@
-const {
-  apply,
-  build,
-  crcDist,
-  distContains,
-  test,
-  validate,
-} = require('../../util');
+const { apply, build, crcDist, distContains, test, validate } = require('../../util');
 
 test('--module-bind', module, () => {
   const fixture = `module-bind/bind`;

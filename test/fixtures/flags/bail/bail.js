@@ -6,8 +6,8 @@ module.exports = {
   arguments: ['--bail'],
 
   config: Object.assign({}, config, {
-    entry: resolve(__dirname, './entry.js'),
+    entry: resolve(__dirname, './entry.js')
   }),
 
-  group: 'advanced',
+  group: 'advanced'
 };

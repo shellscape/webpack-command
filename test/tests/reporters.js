@@ -8,7 +8,7 @@ test('reporter parse util', module, () => {
   it('should parse hidden', () => {
     const stats = {
       filteredAssets: 1,
-      filteredModules: 2,
+      filteredModules: 2
     };
     const result = parse.hidden(stats);
 
@@ -52,11 +52,7 @@ test('Reporter', module, () => {
 });
 
 test('StylishReporter', module, () => {
-  for (const name of [
-    'stylish',
-    'stylish-multi',
-    'problems/stylish-problems',
-  ]) {
+  for (const name of ['stylish', 'stylish-multi', 'problems/stylish-problems']) {
     const fixture = `stylish/${name}`;
     const fixtureType = 'reporters';
     const opts = { fixture, fixtureType };

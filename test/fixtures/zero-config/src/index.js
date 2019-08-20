@@ -1,3 +1,3 @@
 module.exports = {
-  name: 'src/index',
+  name: 'src/index'
 };

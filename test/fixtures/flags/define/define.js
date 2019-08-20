@@ -12,8 +12,8 @@ module.exports = {
 
   config: merge({}, config, {
     entry: resolve(__dirname, './entry.js'),
-    plugins: config.plugins.concat(plugins),
+    plugins: config.plugins.concat(plugins)
   }),
 
-  group: 'advanced',
+  group: 'advanced'
 };

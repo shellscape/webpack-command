@@ -19,16 +19,16 @@ Object {
 `;
 
 exports[`Flags > --entry > multi should build #0 1`] = `
-"Version: webpack 4.23.1
+"Version: webpack 4.39.2
   Asset      Size  Chunks             Chunk Names
-main.js  4.95 KiB    main  [emitted]  main
+main.js  4.94 KiB    main  [emitted]  main
 Entrypoint main = main.js
 [0] multi ./test/fixtures/common/entry-a.js ./test/fixtures/common/entry-b.js 40 bytes {main} [built]
-[./test/fixtures/common/entry-a.js] 41 bytes {main} [built]
-[./test/fixtures/common/entry-b.js] 41 bytes {main} [built]"
+[./test/fixtures/common/entry-a.js] 40 bytes {main} [built]
+[./test/fixtures/common/entry-b.js] 40 bytes {main} [built]"
 `;
 
-exports[`Flags > --entry > multi should build #1 1`] = `"f217c90d"`;
+exports[`Flags > --entry > multi should build #1 1`] = `"73fbdb7c"`;
 
 exports[`Flags > --entry > should parse flag array #0 1`] = `
 Object {

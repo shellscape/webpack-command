@@ -9,19 +9,19 @@ module.exports = [
     output: {
       filename: 'client.js',
       path: path.join(__dirname, '/dist/client'),
-      publicPath: '/static/',
+      publicPath: '/static/'
     },
     plugins: [new webpack.NamedModulesPlugin()],
-    stats: 'none',
+    stats: 'none'
   },
   {
     context: __dirname,
     entry: './server.js',
     output: {
       filename: 'server.js',
-      path: path.join(__dirname, '/dist/server'),
+      path: path.join(__dirname, '/dist/server')
     },
     plugins: [new webpack.NamedModulesPlugin()],
-    stats: 'none',
-  },
+    stats: 'none'
+  }
 ];

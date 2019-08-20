@@ -54,6 +54,11 @@ Array [
   },
   Object {
     "fn": [Function],
+    "name": "RequireJsStuffPlugin",
+    "type": "sync",
+  },
+  Object {
+    "fn": [Function],
     "name": "CommonJsPlugin",
     "type": "sync",
   },
@@ -74,7 +79,7 @@ Array [
   },
   Object {
     "fn": [Function],
-    "name": "RequireJsStuffPlugin",
+    "name": "CommonJsStuffPlugin",
     "type": "sync",
   },
   Object {
@@ -189,7 +194,7 @@ Array [
   },
   Object {
     "fn": [Function],
-    "name": "UglifyJSPlugin",
+    "name": "TerserPlugin",
     "type": "sync",
   },
   Object {

@@ -8,18 +8,18 @@ module.exports = {
   config: [
     Object.assign({}, config, {
       entry: resolve(__dirname, '../../common/entry-a.js'),
-      reporter: 'json',
+      reporter: 'json'
     }),
     Object.assign({}, config, {
       entry: [
         resolve(__dirname, '../../common/entry-b.js'),
-        resolve(__dirname, '../../common/entry-c.js'),
+        resolve(__dirname, '../../common/entry-c.js')
       ],
-      reporter: 'json',
-    }),
+      reporter: 'json'
+    })
   ],
 
   inspect: 'stdout',
 
-  group: 'general',
+  group: 'general'
 };

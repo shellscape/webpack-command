@@ -6,14 +6,14 @@ module.exports = {
   config: [
     {
       entry: resolve(__dirname, '../../common/entry-a.js'),
-      mode: 'development',
+      mode: 'development'
     },
     {
       entry: resolve(__dirname, '../../common/entry-b.js'),
       mode: 'development',
-      watch: true,
-    },
+      watch: true
+    }
   ],
 
-  group: 'advanced',
+  group: 'advanced'
 };

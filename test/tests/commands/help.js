@@ -1,9 +1,6 @@
 const { test } = require('../../util');
 const HelpCommand = require('../../../lib/commands/HelpCommand');
-const {
-  help: commandHelp,
-  load: getCommands,
-} = require('../../../lib/commands/');
+const { help: commandHelp, load: getCommands } = require('../../../lib/commands/');
 
 let command;
 const commands = getCommands();
@@ -29,7 +26,7 @@ test('help command', module, () => {
   it(`should display help for the help command`, () => {
     const cli = {
       commands,
-      input: ['help', 'help'],
+      input: ['help', 'help']
     };
     const stdout = false;
     let result = command.run(cli, { stdout });
@@ -41,7 +38,7 @@ test('help command', module, () => {
   it(`should display help for the teach command`, () => {
     const cli = {
       commands,
-      input: ['help', 'teach'],
+      input: ['help', 'teach']
     };
     const stdout = false;
     let result = command.run(cli, { stdout });
@@ -53,7 +50,7 @@ test('help command', module, () => {
   it(`should throw for unknown command`, () => {
     const cli = {
       commands,
-      input: ['help', 'unknown'],
+      input: ['help', 'unknown']
     };
     const stub = () => command.run(cli);
 

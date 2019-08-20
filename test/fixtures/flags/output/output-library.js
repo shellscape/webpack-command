@@ -6,8 +6,8 @@ module.exports = {
   arguments: ['--output-library', '__output__'],
 
   config: Object.assign({}, config, {
-    entry: resolve(__dirname, './output-entry.js'),
+    entry: resolve(__dirname, './output-entry.js')
   }),
 
-  group: 'output',
+  group: 'output'
 };

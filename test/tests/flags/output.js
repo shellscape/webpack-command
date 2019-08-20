@@ -10,7 +10,7 @@ const fixtures = [
   'output-pathinfo',
   'output-public-path',
   'output-source-map-filename',
-  'output',
+  'output'
 ];
 
 test('--output-*', module, () => {

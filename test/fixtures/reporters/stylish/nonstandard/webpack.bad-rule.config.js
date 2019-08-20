@@ -10,13 +10,13 @@ module.exports = {
   entry: './entry.js',
   output: {
     filename: './output.js',
-    path: path.join(__dirname, '/dist'),
+    path: path.join(__dirname, '/dist')
   },
   plugins: [
     new webpack.NamedModulesPlugin(),
     new StyleLintPlugin({
-      configFile: path.join(__dirname, '/bad-rule.stylelintrc'),
-    }),
+      configFile: path.join(__dirname, '/bad-rule.stylelintrc')
+    })
   ],
-  stats: 'none',
+  stats: 'none'
 };

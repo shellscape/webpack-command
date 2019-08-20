@@ -15,7 +15,7 @@ module.exports = class TestReporter extends Reporter {
     const result = stats.toString({
       builtAt: false,
       hash: false,
-      timings: false,
+      timings: false
     });
 
     return result;

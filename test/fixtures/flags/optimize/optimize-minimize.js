@@ -6,8 +6,8 @@ module.exports = {
   arguments: ['--optimize-minimize'],
 
   config: Object.assign({}, config, {
-    entry: resolve(__dirname, '../../common/entry-a.js'),
+    entry: resolve(__dirname, '../../common/entry-a.js')
   }),
 
-  group: 'optimization',
+  group: 'optimization'
 };

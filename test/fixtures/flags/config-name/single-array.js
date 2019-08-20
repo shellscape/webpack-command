@@ -7,9 +7,9 @@ module.exports = {
     {
       entry: resolve(__dirname, '../../common/entry-a.js'),
       mode: 'development',
-      name: 'single-object',
-    },
+      name: 'single-object'
+    }
   ],
 
-  group: 'config',
+  group: 'config'
 };

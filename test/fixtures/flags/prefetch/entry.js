@@ -2,5 +2,5 @@
 require('./dependency');
 
 module.exports = {
-  name: 'entry-bail',
+  name: 'entry-bail'
 };

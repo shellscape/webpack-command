@@ -111,16 +111,16 @@ Object {
 
 exports[`StylishReporter > problems/stylish-problems: reporter should build #0 1`] = `
 "
-webpack v4.23.1
+webpack v4.39.2
 
 <hash>
-  size   name                     module                                                        status
-  160 B  problems sync recursive  ./test/fixtures/reporters/stylish/problems sync               built
-  148 B  entry-problems.js        ./test/fixtures/reporters/stylish/problems/entry-problems.js  built ✖
-  177 B  image.jpg                ./test/fixtures/reporters/stylish/problems/image.jpg          built failed ✖
+  size    name                     module                                                        status
+  160 B   problems sync recursive  ./test/fixtures/reporters/stylish/problems sync               built
+  148 B   entry-problems.js        ./test/fixtures/reporters/stylish/problems/entry-problems.js  built ✖
+  281 B   image.jpg                ./test/fixtures/reporters/stylish/problems/image.jpg          built failed ✖
 
-  size   name                     asset                                                         status
-  6 kB   main                     main.js                                                       emitted
+  size    name                     asset                                                         status
+  <size>  main                     main.js                                                       emitted
 
   <duration> 
 
@@ -131,8 +131,10 @@ webpack v4.23.1
 
 ./test/fixtures/reporters/stylish/problems/image.jpg 1:0
   1:0  error  Module parse failed: Unexpected character '�' You may need an
-              appropriate loader to handle this file type. (Source code omitted for
-              this binary file)  @
+              appropriate loader to handle this file type, currently no loaders are
+              configured to process this file. See
+              https://webpack.js.org/concepts#loaders (Source code omitted for this
+              binary file)  @
               ./test/fixtures/reporters/stylish/problems/entry-problems.js 7:0-22
 
 ./test/fixtures/reporters/stylish/problems/entry-problems.js 2:12-19
@@ -183,11 +185,11 @@ Object {
 
 exports[`StylishReporter > stylish: reporter should build #0 1`] = `
 "
-webpack v4.23.1
+webpack v4.39.2
 
 <hash>
   size     name        module                             status
-  41 B     entry-a.js  ./test/fixtures/common/entry-a.js  built
+  40 B     entry-a.js  ./test/fixtures/common/entry-a.js  built
 
   size     name        asset                              status
   <size>  main        main.js                            emitted
@@ -277,11 +279,11 @@ Array [
 
 exports[`StylishReporter > stylish-multi: reporter should build #0 1`] = `
 "
-webpack v4.23.1
+webpack v4.39.2
 
 <hash>
   size     name        module                             status
-  41 B     entry-a.js  ./test/fixtures/common/entry-a.js  built
+  40 B     entry-a.js  ./test/fixtures/common/entry-a.js  built
 
   size     name        asset                              status
   <size>  main        main.js                            emitted
@@ -291,8 +293,8 @@ webpack v4.23.1
 <hash>
   size     name        module                                                                     status
   40 B     0           multi ./test/fixtures/common/entry-b.js ./test/fixtures/common/entry-c.js  built
-  41 B     entry-b.js  ./test/fixtures/common/entry-b.js                                          built
-  41 B     entry-c.js  ./test/fixtures/common/entry-c.js                                          built
+  40 B     entry-b.js  ./test/fixtures/common/entry-b.js                                          built
+  40 B     entry-c.js  ./test/fixtures/common/entry-c.js                                          built
 
   size     name        asset                                                                      status
   <size>  main        main.js                                                                    emitted
@@ -317,11 +319,11 @@ Object {
 
 exports[`bad reporter name > should default to stylish #0 1`] = `
 "
-webpack v4.23.1
+webpack v4.39.2
 
 <hash>
   size     name        module                             status
-  41 B     entry-a.js  ./test/fixtures/common/entry-a.js  built
+  40 B     entry-a.js  ./test/fixtures/common/entry-a.js  built
 
   size     name        asset                              status
   <size>  main        main.js                            emitted

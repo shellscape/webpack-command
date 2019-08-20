@@ -8,8 +8,8 @@ module.exports = {
   arguments: ['--resolve-alias.aliased', `${aliasPath}`],
 
   config: Object.assign({}, config, {
-    entry: resolve(__dirname, 'entry.js'),
+    entry: resolve(__dirname, 'entry.js')
   }),
 
-  group: 'resolver',
+  group: 'resolver'
 };

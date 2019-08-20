@@ -26,5 +26,5 @@ require('webpack-log');
 require('wordwrap');
 
 module.exports = {
-  name: 'entry-a',
+  name: 'entry-a'
 };

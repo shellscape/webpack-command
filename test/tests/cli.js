@@ -11,9 +11,7 @@ test('Bad Config', module, () => {
     try {
       execa.sync('node', [cliPath], { cwd });
     } catch (e) {
-      expect(e.message).toMatch(
-        `options['batman']  is an invalid additional property`
-      );
+      expect(e.message).toMatch(`options['batman']  is an invalid additional property`);
     }
   });
 });
@@ -37,9 +35,7 @@ test('Commands', module, () => {
     const cliPath = resolve(__dirname, '../../lib/cli.js');
     const result = execa.sync('node', [cliPath, '--help']);
 
-    expect(
-      strip(result.stdout).replace(/Δt \d+ms/g, '<duration>')
-    ).toMatchSnapshot();
+    expect(strip(result.stdout).replace(/Δt \d+ms/g, '<duration>')).toMatchSnapshot();
   });
 
   it('should show teach command help', () => {
@@ -62,8 +58,8 @@ test('Commands', module, () => {
     const stub = () =>
       execa.sync(cliPath, ['bad-command'], {
         env: {
-          CLI_TEST: 'true',
-        },
+          CLI_TEST: 'true'
+        }
       });
 
     // TODO: move to error codes
@@ -75,9 +71,7 @@ test('Commands', module, () => {
     const srcPath = resolve(__dirname, '../../test/fixtures/flags/config/src');
     const result = execa.sync(cliPath, [srcPath]);
 
-    expect(
-      strip(result.stdout).replace(/Δt \d+ms/g, '<duration>')
-    ).toMatchSnapshot();
+    expect(strip(result.stdout).replace(/Δt \d+ms/g, '<duration>')).toMatchSnapshot();
   }).timeout(4000);
 
   it('should accept custom reporters relative to the current working directory', () => {
@@ -87,7 +81,7 @@ test('Commands', module, () => {
       cliPath,
       ['--reporter', '../../lib/reporters/BasicReporter', srcPath],
       {
-        cwd: __dirname,
+        cwd: __dirname
       }
     );
 

@@ -1,11 +1,7 @@
 const { apply, build, crcDist, test, validate } = require('../../util');
 
 test('--resolve-*', module, () => {
-  for (const name of [
-    'resolve-alias',
-    'resolve-extensions',
-    'resolve-loader-alias',
-  ]) {
+  for (const name of ['resolve-alias', 'resolve-extensions', 'resolve-loader-alias']) {
     const fixture = `resolve/${name}`;
     const opts = { fixture };
 

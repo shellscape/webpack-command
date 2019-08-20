@@ -6,8 +6,8 @@ module.exports = {
   arguments: ['--resolve-extensions', '.custom'],
 
   config: Object.assign({}, config, {
-    entry: resolve(__dirname, 'entry-extensions.js'),
+    entry: resolve(__dirname, 'entry-extensions.js')
   }),
 
-  group: 'resolver',
+  group: 'resolver'
 };

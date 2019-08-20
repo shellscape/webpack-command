@@ -9,12 +9,12 @@ module.exports = {
   entry: './entry.js',
   output: {
     filename: './output.js',
-    path: path.join(__dirname, '/dist'),
+    path: path.join(__dirname, '/dist')
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Fixture',
-    }),
+      title: 'Fixture'
+    })
   ],
   stats: 'none',
   module: {
@@ -24,10 +24,10 @@ module.exports = {
         use: [
           {
             loader: 'file-loader',
-            options: {},
-          },
-        ],
-      },
-    ],
-  },
+            options: {}
+          }
+        ]
+      }
+    ]
+  }
 };

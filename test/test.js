@@ -50,7 +50,7 @@ const flags = [
   'resolve',
   'run-mode',
   'target',
-  'watch',
+  'watch'
 ];
 
 describe('Flags', () => {

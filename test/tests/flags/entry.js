@@ -3,10 +3,7 @@ const parseEntries = require('../../../lib/entry');
 
 test('--entry', module, () => {
   it('should parse input', () => {
-    const entries = [
-      fixturePath('common/entry-a.js'),
-      fixturePath('common/entry-c.js'),
-    ];
+    const entries = [fixturePath('common/entry-a.js'), fixturePath('common/entry-c.js')];
     const result = parseEntries({ entries, flags: {} });
 
     expect(result.main).toHaveLength(2);
@@ -23,10 +20,7 @@ test('--entry', module, () => {
 
   it('should parse flag array', () => {
     const flags = {
-      entry: [
-        fixturePath('common/entry-a.js'),
-        fixturePath('common/entry-b.js'),
-      ],
+      entry: [fixturePath('common/entry-a.js'), fixturePath('common/entry-b.js')]
     };
     const result = parseEntries({ entries: [], flags });
 
@@ -38,8 +32,8 @@ test('--entry', module, () => {
     const flags = {
       entry: {
         a: fixturePath('common/entry-a.js'),
-        b: fixturePath('common/entry-b.js'),
-      },
+        b: fixturePath('common/entry-b.js')
+      }
     };
     const result = parseEntries({ entries: [], flags });
 
@@ -59,10 +53,7 @@ test('--entry', module, () => {
   it('should parse input + flag array', () => {
     const entries = [fixturePath('common/entry-a.js')];
     const flags = {
-      entry: [
-        fixturePath('common/entry-b.js'),
-        fixturePath('common/entry-c.js'),
-      ],
+      entry: [fixturePath('common/entry-b.js'), fixturePath('common/entry-c.js')]
     };
     const result = parseEntries({ entries, flags });
 
@@ -75,8 +66,8 @@ test('--entry', module, () => {
     const flags = {
       entry: {
         a: fixturePath('common/entry-a.js'),
-        b: fixturePath('common/entry-b.js'),
-      },
+        b: fixturePath('common/entry-b.js')
+      }
     };
     const result = parseEntries({ entries, flags });
 

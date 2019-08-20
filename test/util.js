@@ -16,9 +16,7 @@ function prep(options) {
   const fixture = require(`./fixtures/${fixtureType}/${options.fixture}`);
   const group = require(`../lib/flags/${fixture.group}`);
   const args = fixture.arguments;
-  const minimistOpts = buildMinimistOptions(
-    Object.assign({ arguments: 'string' }, fixture.flags)
-  );
+  const minimistOpts = buildMinimistOptions(Object.assign({ arguments: 'string' }, fixture.flags));
 
   let argv = minimist(args, minimistOpts);
   argv = camelcaseKeys(argv, { exclude: ['--', /^\w$/] });
@@ -82,13 +80,11 @@ module.exports = {
         const value = argv[key];
 
         if (!validate(flag, value)) {
-          throw new Error(
-            `\`--${key}\` does not match type(s) \`${flag.type}\``
-          );
+          throw new Error(`\`--${key}\` does not match type(s) \`${flag.type}\``);
         }
       }
     }
 
     return true;
-  },
+  }
 };

@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Commands > should accept custom reporters relative to the current working directory #0 1`] = `
-"ℹ ｢webpack｣: Starting Build
-ℹ ｢webpack｣: Build Finished
+"⬡ webpack: Starting Build
+⬡ webpack: Build Finished
 Hash: <hash>
 <version>
 <duration>
@@ -14,18 +14,18 @@ Entrypoint main = main.js
 
 WARNING in configuration
 The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
-You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/concepts/mode/"
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/"
 `;
 
 exports[`Commands > should add directories to entries #0 1`] = `
-"ℹ ｢webpack｣: Starting Build
-ℹ ｢webpack｣: Build Finished
+"⬡ webpack: Starting Build
+⬡ webpack: Build Finished
 
-webpack v4.23.1
+webpack v4.39.2
 
-75a810f7730741916b5a
+16b8307c8f337299379f
   size   name  module                                     status
-  43 B   0     ./test/fixtures/flags/config/src/index.js  built
+  42 B   0     ./test/fixtures/flags/config/src/index.js  built
 
   size   name  asset                                      status
   958 B  main  main.js                                    emitted
@@ -165,14 +165,14 @@ exports[`Commands > should show teach command help #0 1`] = `
 `;
 
 exports[`Zero Config > should run #0 1`] = `
-"ℹ ｢webpack｣: Starting Build
-ℹ ｢webpack｣: Build Finished
+"⬡ webpack: Starting Build
+⬡ webpack: Build Finished
 
-webpack v4.23.1
+webpack v4.39.2
 
-75a810f7730741916b5a
+16b8307c8f337299379f
   size   name  module          status
-  43 B   0     ./src/index.js  built
+  42 B   0     ./src/index.js  built
 
   size   name  asset           status
   958 B  main  main.js         emitted

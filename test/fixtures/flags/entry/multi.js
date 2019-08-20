@@ -5,10 +5,10 @@ module.exports = {
     '--entry',
     './test/fixtures/common/entry-a.js',
     '--entry',
-    './test/fixtures/common/entry-b.js',
+    './test/fixtures/common/entry-b.js'
   ],
 
   config: Object.assign({}, config),
 
-  group: 'general',
+  group: 'general'
 };

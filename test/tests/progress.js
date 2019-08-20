@@ -16,7 +16,7 @@ test('progress util', module, () => {
       'building modules',
       '5/6 modules',
       '1 active',
-      '/node_modules/lodash/lodash.js',
+      '/node_modules/lodash/lodash.js'
     ];
     const result = progress.parseArgs(...args);
 
@@ -38,12 +38,7 @@ test('progress util', module, () => {
   });
 
   it('should parse args: step name and scope', () => {
-    const args = [
-      false,
-      '0.1',
-      'finish module graph',
-      'FlagDependencyExportsPlugin',
-    ];
+    const args = [false, '0.1', 'finish module graph', 'FlagDependencyExportsPlugin'];
     const result = progress.parseArgs(...args);
 
     expect(result).toMatchSnapshot();

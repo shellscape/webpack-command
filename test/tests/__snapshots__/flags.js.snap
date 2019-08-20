@@ -395,14 +395,14 @@ Object {
 exports[`lib/flags/util > should fail to load a plugin with bad options #0 1`] = `
 "UglifyJs Plugin Invalid Options
 
-options['true'] is an invalid additional property
+options should NOT have additional properties
 "
 `;
 
 exports[`lib/flags/util > should fail to load a plugin with bad querystring #0 1`] = `
 "UglifyJs Plugin Invalid Options
 
-options['...'] is an invalid additional property
+options should NOT have additional properties
 "
 `;
 
@@ -411,6 +411,7 @@ UglifyJsPlugin {
   "options": Object {
     "cache": false,
     "cacheKeys": [Function],
+    "chunkFilter": [Function],
     "exclude": undefined,
     "extractComments": false,
     "include": undefined,
@@ -419,11 +420,8 @@ UglifyJsPlugin {
     "sourceMap": false,
     "test": /\\\\\\.js\\(\\\\\\?\\.\\*\\)\\?\\$/i,
     "uglifyOptions": Object {
-      "compress": Object {
-        "inline": 1,
-      },
       "output": Object {
-        "comments": /\\^\\\\\\*\\*!\\|@preserve\\|@license\\|@cc_on/,
+        "comments": /\\^\\\\\\*\\*!\\|@preserve\\|@license\\|@cc_on/i,
       },
     },
     "warningsFilter": [Function],
@@ -436,6 +434,7 @@ UglifyJsPlugin {
   "options": Object {
     "cache": true,
     "cacheKeys": [Function],
+    "chunkFilter": [Function],
     "exclude": undefined,
     "extractComments": false,
     "include": undefined,
@@ -444,11 +443,8 @@ UglifyJsPlugin {
     "sourceMap": false,
     "test": /\\\\\\.js\\(\\\\\\?\\.\\*\\)\\?\\$/i,
     "uglifyOptions": Object {
-      "compress": Object {
-        "inline": 1,
-      },
       "output": Object {
-        "comments": /\\^\\\\\\*\\*!\\|@preserve\\|@license\\|@cc_on/,
+        "comments": /\\^\\\\\\*\\*!\\|@preserve\\|@license\\|@cc_on/i,
       },
     },
     "warningsFilter": [Function],

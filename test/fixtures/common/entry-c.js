@@ -1,3 +1,3 @@
 module.exports = {
-  name: 'entry-c',
+  name: 'entry-c'
 };

@@ -7,8 +7,8 @@ module.exports = {
   entry: './entry.js',
   output: {
     filename: './output.js',
-    path: path.join(__dirname, '/dist'),
+    path: path.join(__dirname, '/dist')
   },
   plugins: [],
-  stats: 'none',
+  stats: 'none'
 };

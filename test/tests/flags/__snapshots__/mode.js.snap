@@ -14,14 +14,14 @@ Object {
 `;
 
 exports[`Flags > --mode > dev should build #0 1`] = `
-"Version: webpack 4.23.1
+"Version: webpack 4.39.2
   Asset      Size  Chunks             Chunk Names
 main.js  3.92 KiB    main  [emitted]  main
 Entrypoint main = main.js
-[./test/fixtures/common/entry-a.js] 41 bytes {main} [built]"
+[./test/fixtures/common/entry-a.js] 40 bytes {main} [built]"
 `;
 
-exports[`Flags > --mode > dev should build #1 1`] = `"1c77bf93"`;
+exports[`Flags > --mode > dev should build #1 1`] = `"fd728305"`;
 
 exports[`Flags > --mode > prod should apply #0 1`] = `
 Object {
@@ -37,11 +37,11 @@ Object {
 `;
 
 exports[`Flags > --mode > prod should build #0 1`] = `
-"Version: webpack 4.23.1
+"Version: webpack 4.39.2
   Asset   Size  Chunks             Chunk Names
 main.js  1 KiB       0  [emitted]  main
 Entrypoint main = main.js
-[./test/fixtures/common/entry-a.js] 41 bytes {0} [built]"
+[./test/fixtures/common/entry-a.js] 40 bytes {0} [built]"
 `;
 
 exports[`Flags > --mode > prod should build #1 1`] = `"6cf29bc5"`;

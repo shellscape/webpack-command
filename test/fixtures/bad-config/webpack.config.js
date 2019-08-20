@@ -1,4 +1,4 @@
 module.exports = {
   mode: 'development',
-  batman: 'i am',
+  batman: 'i am'
 };

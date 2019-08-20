@@ -6,10 +6,10 @@ module.exports = {
   arguments: ['--profile'],
 
   config: Object.assign({}, config, {
-    entry: resolve(__dirname, '../../common/entry-a.js'),
+    entry: resolve(__dirname, '../../common/entry-a.js')
   }),
 
   inspect: 'stdout',
 
-  group: 'advanced',
+  group: 'advanced'
 };

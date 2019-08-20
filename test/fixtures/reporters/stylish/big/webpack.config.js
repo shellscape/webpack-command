@@ -9,11 +9,11 @@ module.exports = {
   entry: './entry.js',
   output: {
     filename: './output.js',
-    path: path.join(__dirname, '/dist'),
+    path: path.join(__dirname, '/dist')
   },
   performance: {
-    hints: 'warning',
+    hints: 'warning'
   },
   plugins: [new webpack.NamedModulesPlugin()],
-  stats: 'none',
+  stats: 'none'
 };

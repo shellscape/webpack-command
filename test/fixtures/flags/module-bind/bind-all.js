@@ -12,12 +12,12 @@ module.exports = {
     '--module-bind',
     'json',
     '--module-bind-post',
-    `js=${postLoaderPath}`,
+    `js=${postLoaderPath}`
   ],
 
   config: Object.assign({}, config, {
-    entry: resolve(__dirname, '../../common/entry-a.js'),
+    entry: resolve(__dirname, '../../common/entry-a.js')
   }),
 
-  group: 'module',
+  group: 'module'
 };

@@ -6,8 +6,8 @@ module.exports = {
   arguments: ['--optimize-min-chunk-size', '10'],
 
   config: Object.assign({}, config, {
-    entry: resolve(__dirname, '../../common/entry-a.js'),
+    entry: resolve(__dirname, '../../common/entry-a.js')
   }),
 
-  group: 'optimization',
+  group: 'optimization'
 };

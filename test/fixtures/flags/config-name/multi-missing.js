@@ -9,16 +9,16 @@ module.exports = {
     {
       entry: resolve(__dirname, '../../common/entry-a.js'),
       mode: 'development',
-      name: 'bundle-a',
+      name: 'bundle-a'
     },
     {
       entry: resolve(__dirname, '../../common/entry-b.js'),
       mode: 'development',
-      name: 'bundle-b',
-    },
+      name: 'bundle-b'
+    }
   ],
 
   group: 'config',
 
-  throws: WebpackCommandError,
+  throws: WebpackCommandError
 };

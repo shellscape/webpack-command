@@ -5,5 +5,5 @@ const configPath = resolve(__dirname, '../../common/webpack.config');
 module.exports = {
   arguments: ['--config', configPath],
 
-  group: 'config',
+  group: 'config'
 };

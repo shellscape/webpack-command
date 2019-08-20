@@ -2,5 +2,5 @@
 require('./missing');
 
 module.exports = {
-  name: 'entry-bail',
+  name: 'entry-bail'
 };

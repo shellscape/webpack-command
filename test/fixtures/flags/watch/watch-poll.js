@@ -6,8 +6,8 @@ module.exports = {
   arguments: ['--watch-poll', 1000],
 
   config: Object.assign({}, config, {
-    entry: resolve(__dirname, '../../common/entry-a.js'),
+    entry: resolve(__dirname, '../../common/entry-a.js')
   }),
 
-  group: 'advanced',
+  group: 'advanced'
 };

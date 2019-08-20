@@ -7,10 +7,10 @@ module.exports = {
 
   config: Object.assign({}, config, {
     entry: resolve(__dirname, '../../common/entry-a.js'),
-    reporter: 'json',
+    reporter: 'json'
   }),
 
   inspect: 'stdout',
 
-  group: 'general',
+  group: 'general'
 };

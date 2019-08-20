@@ -5,5 +5,5 @@ module.exports = {
 
   config: Object.assign({}, config),
 
-  group: 'general',
+  group: 'general'
 };

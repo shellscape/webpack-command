@@ -6,8 +6,8 @@ module.exports = {
   arguments: ['--target', 'node'],
 
   config: Object.assign({}, config, {
-    entry: resolve(__dirname, '../../common/entry-a.js'),
+    entry: resolve(__dirname, '../../common/entry-a.js')
   }),
 
-  group: 'advanced',
+  group: 'advanced'
 };

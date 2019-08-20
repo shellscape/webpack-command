@@ -9,8 +9,8 @@ module.exports = {
   arguments: ['--resolve-loader-alias.aliased', `${preLoaderPath}`],
 
   config: Object.assign({}, config, {
-    entry: resolve(__dirname, './entry-loader-alias.js'),
+    entry: resolve(__dirname, './entry-loader-alias.js')
   }),
 
-  group: 'resolver',
+  group: 'resolver'
 };

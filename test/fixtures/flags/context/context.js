@@ -8,8 +8,8 @@ module.exports = {
   arguments: ['--context', context],
 
   config: Object.assign({}, config, {
-    entry: './entry-a.js',
+    entry: './entry-a.js'
   }),
 
-  group: 'general',
+  group: 'general'
 };

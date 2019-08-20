@@ -7,19 +7,19 @@ module.exports = {
 
   config: [
     Object.assign({}, config, {
-      entry: resolve(__dirname, '../../common/entry-a.js'),
+      entry: resolve(__dirname, '../../common/entry-a.js')
     }),
     Object.assign({}, config, {
       entry: [
         resolve(__dirname, '../../common/entry-b.js'),
-        resolve(__dirname, '../../common/entry-c.js'),
-      ],
-    }),
+        resolve(__dirname, '../../common/entry-c.js')
+      ]
+    })
   ],
 
   inspect: 'stdout',
 
-  group: 'general',
+  group: 'general'
 };
 
 // the test reporter is added by default in common fixtures

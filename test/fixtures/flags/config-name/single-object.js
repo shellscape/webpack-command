@@ -8,10 +8,10 @@ module.exports = {
 
   config: Object.assign({}, config, {
     entry: resolve(__dirname, '../../common/entry-a.js'),
-    name: 'single-object',
+    name: 'single-object'
   }),
 
   group: 'config',
 
-  throws: WebpackCommandError,
+  throws: WebpackCommandError
 };

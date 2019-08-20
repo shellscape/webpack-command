@@ -10,11 +10,11 @@ module.exports = {
     stats: {
       builtAt: false,
       hash: false,
-      timings: false,
-    },
+      timings: false
+    }
   }),
 
   inspect: 'stdout',
 
-  group: 'general',
+  group: 'general'
 };

@@ -1,3 +1,3 @@
 module.exports = {
-  name: 'prefetch-dependency',
+  name: 'prefetch-dependency'
 };

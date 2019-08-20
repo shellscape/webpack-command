@@ -9,9 +9,9 @@ module.exports = {
     entry: [
       resolve(__dirname, '../../common/entry-a.js'),
       resolve(__dirname, '../../common/entry-b.js'),
-      resolve(__dirname, '../../common/entry-c.js'),
-    ],
+      resolve(__dirname, '../../common/entry-c.js')
+    ]
   }),
 
-  group: 'optimization',
+  group: 'optimization'
 };

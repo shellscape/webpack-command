@@ -5,12 +5,12 @@ const { apply } = require('../../lib/flags');
 const config = [
   {
     entry: resolve(__dirname, '../../common/entry-a.js'),
-    mode: 'development',
+    mode: 'development'
   },
   {
     entry: resolve(__dirname, '../../common/entry-b.js'),
-    mode: 'development',
-  },
+    mode: 'development'
+  }
 ];
 
 test('lib/config', module, () => {
