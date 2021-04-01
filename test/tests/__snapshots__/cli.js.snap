@@ -23,7 +23,7 @@ exports[`Commands > should add directories to entries #0 1`] = `
 
 webpack v4.39.2
 
-16b8307c8f337299379f
+2d6166477f09abd638c5
   size   name  module                                     status
   42 B   0     ./test/fixtures/flags/config/src/index.js  built
 
@@ -170,7 +170,7 @@ exports[`Zero Config > should run #0 1`] = `
 
 webpack v4.39.2
 
-16b8307c8f337299379f
+2d6166477f09abd638c5
   size   name  module          status
   42 B   0     ./src/index.js  built
 

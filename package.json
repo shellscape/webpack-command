@@ -91,7 +91,7 @@
     "jest-snapshot": "^23.0.1",
     "lint-staged": "^9.2.3",
     "memory-fs": "^0.4.1",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.5",
     "minimist-options": "^4.0.1",
     "mocha": "^6.2.0",
     "nyc": "^14.1.1",
