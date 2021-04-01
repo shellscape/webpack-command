@@ -1,6 +1,6 @@
 {
   "name": "webpack-command",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "A superior CLI experience for webpack.",
   "license": "MIT",
   "repository": "shellscape/webpack-command",
