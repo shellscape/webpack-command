@@ -48,7 +48,7 @@
     "enhanced-resolve": "^4.0.0",
     "import-local": "^3.0.2",
     "isobject": "^4.0.0",
-    "loader-utils": "^1.1.0",
+    "loader-utils": "^2.0.3",
     "log-symbols": "^3.0.0",
     "loud-rejection": "^2.1.0",
     "meant": "^1.0.1",
