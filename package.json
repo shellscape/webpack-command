@@ -52,7 +52,7 @@
     "log-symbols": "^3.0.0",
     "loud-rejection": "^2.1.0",
     "meant": "^1.0.1",
-    "meow": "^5.0.0",
+    "meow": "^10.0.0",
     "merge-options": "^1.0.0",
     "object.values": "^1.0.4",
     "opn": "^6.0.0",
@@ -62,7 +62,7 @@
     "strip-ansi": "^5.2.0",
     "text-table": "^0.2.0",
     "titleize": "^2.1.0",
-    "update-notifier": "^3.0.1",
+    "update-notifier": "^6.0.0",
     "v8-compile-cache": "^2.0.0",
     "webpack-log": "^3.0.1",
     "wordwrap": "^1.0.0"
