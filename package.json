@@ -62,7 +62,7 @@
     "strip-ansi": "^5.2.0",
     "text-table": "^0.2.0",
     "titleize": "^2.1.0",
-    "update-notifier": "^3.0.1",
+    "update-notifier": "^4.0.0",
     "v8-compile-cache": "^2.0.0",
     "webpack-log": "^3.0.1",
     "wordwrap": "^1.0.0"
